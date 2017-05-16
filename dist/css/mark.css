@@ -1,0 +1,48 @@
+body{
+	background:url(../../background/bg_1.jpg);
+	background-size:100% 100%;
+	background-position: center;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+}
+.contion ul {
+	list-style-type: decimal;
+}
+.contion ul li {
+	line-height: 2.5;
+	border-bottom: 1px dotted #b4b4b4;
+	font-family: 微软雅黑;
+}
+/*.del{text-decoration:line-through}*/
+.contion{
+	width: 800px;
+	border-radius: 40px;
+	margin:0px auto;padding:40px;
+	background: rgba(255,255,255,0.7);
+}
+span{
+	color:#fff;
+	padding:2px 6px;
+	margin:0px 3px;
+	background:#009966;
+	border-radius: 3px;
+	font-weight: bold;
+}
+.contion i.icon-2x{
+	float: right
+}
+#start-menu{
+	position: fixed;
+	top:10px;left: 10px;
+}
+#menu-panel{
+	/*background: #000;*/
+	display: none;
+	width: 300px;
+	position: fixed;
+	overflow:auto;
+	overflow-y:scroll; overflow-x:scroll;
+}
+#menu-panel img{
+	width: 280px;
+}
